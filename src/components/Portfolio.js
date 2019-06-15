@@ -15,8 +15,10 @@ class Portfolio extends Component {
   state = {}
   render() {
     return (
-      <div className='portfolio container-fluid'>
-        <div class='title text-center d-flex align-items-center justify-content-center'><div class='text-center'>Portfolio</div></div>
+      <div id='projects' className='portfolio container-fluid'>
+        <div class='title text-center d-flex align-items-center justify-content-center'>
+          <div class='title-text text-center'>Portfolio</div>
+        </div>
 
         <div class='container'>
           <div class="row">
@@ -24,6 +26,7 @@ class Portfolio extends Component {
               <Card class='card'>
                 <CardActionArea>
                   <CardMedia
+                    className="cardPic"
                     component="img"
                     alt="Contemplative Reptile"
                     height="100%"

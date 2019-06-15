@@ -4,15 +4,40 @@
   padding-left: 0;
   padding-right: 0;
 
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .title {
   height: 25vh;
   color: white;
   font-size: 2rem;
   font-weight: bold;
+  background-color: rgba(43, 39, 39, 0.9);
 }
 
 .card {
   height: 60vh;
+}
+
+.title-text:after {
+  display: block;
+  height: 2px;
+  background-color: #28b062;
+  content: " ";
+  margin: 0 auto;
+  width: 100px;
+  margin-top: 30px;
+}
+
+.cardPic {
+  transition: transform 0.2s; /* Animation */
+}
+
+.cardPic:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media only screen and (max-width: 1200px) {
+  .card {
+    height: 100%;
+  }
 }

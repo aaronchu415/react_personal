@@ -12,7 +12,7 @@ class Header extends Component {
           <div class='w-50 text-center ml-auto mr-auto'>
             <h1 className='text-white text-center'>Aaron Chu</h1>
             <hr className='Hr-line text-white'></hr>
-            <h6 className='text-white text-center'>Stripper . Software Engineer</h6>
+            <h6 className='text-white text-center'>Software Engineer</h6>
           </div>
         </div>
       </div>

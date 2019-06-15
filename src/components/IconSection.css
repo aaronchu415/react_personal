@@ -1,12 +1,11 @@
 .IconSection {
   /* height:50vh; */
-  width:100%;
-  background-color:rgba(0, 0, 0, .3);
-
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .iconBox {
-  height:20vh;
+  height: 20vh;
 }
 
 #GithubLogo {
@@ -14,8 +13,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:50%;
-  width:50%;
+  height: 50%;
+  width: 50%;
 }
 
 #LinkedinLogo {
@@ -23,8 +22,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:50%;
-  width:50%;
+  height: 50%;
+  width: 50%;
 }
 
 #LeetCodeLogo {
@@ -32,8 +31,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height:50%;
-  width:50%;
+  height: 50%;
+  width: 50%;
+}
+
+#ResumeLogo {
+  background-image: url("/img/resumeLogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50%;
+  width: 50%;
 }
 /* 
 .aboutMePicture {

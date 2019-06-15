@@ -5,7 +5,7 @@ class AboutMe extends Component {
   state = {}
   render() {
     return (
-      <div className='About-Me container-fluid'>
+      <div id='about' className='About-Me container-fluid'>
         <div class="row justify-content-center align-items-center">
           <div class="aboutMePicture col-md">
           </div>
@@ -20,7 +20,7 @@ class AboutMe extends Component {
                   <p>Aaron started his career as an auditor and hedge fund accountant. After 5
                       years in the
                       finance industry he left his career in accounting to pursue a career in technology. He is
-                      current an aspiring software developer residing in San Francisco Bay Area.
+                      current a full-stack software developer residing in San Francisco Bay Area.
                         </p>
                 </div>
               </div>
