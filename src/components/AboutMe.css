@@ -1,0 +1,35 @@
+.About-Me {
+  /* height:50vh; */
+  width:100%;
+  /* background-color:gray; */
+  padding-left:0;
+  padding-right:0;
+}
+
+.aboutMePicture {
+  height:50vh;
+  background-image: url("/img/headShot.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color:rgba(0, 0, 0, .9)
+}
+
+.aboutMeDescription {
+  height:50vh;
+  background-image: url("/img/aboutMeDescription.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  position: relative
+}
+
+.opacity {
+  height:100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, .6)
+}

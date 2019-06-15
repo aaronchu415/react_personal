@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  background-color:black;
+  background-image: url("/img/bg.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+header {
+  width:100%;
+}
+
+
+#about, #skills {
+  color:white;
+  background-color: rgba(8, 14, 19, 0.87)
+}
+
+#projects {
+  background-color: rgba(8, 14, 19, 0.87)
+}
+
+.text-intro-container {
+  position: relative;
+  height:95vh;
+  background-color: rgba(8, 14, 19, 0.87);
+  margin-top:5%;
+  z-index: -1;
+}
+
+.text-intro {
+  font-size:2rem;
+  padding-left:15%;
+  position:absolute;
+  top:25%;
+  color:white;
+}
+
+.lead {
+  font-size:1.5rem;
+}
+
+.btn.btn-primary {
+  background: #fab95b;
+  border-color: #fab95b;
+  color: #fff;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+
+.navbar {
+  height:5vh;
+}
+.my_col {
+  margin-bottom: 20px;
+}
+
+.my_card {
+  background-color: rgb(31, 37, 41);
+  color: white
+}
+
+.my_jumbo {
+  background-color:rgba(8, 14, 19, 0.87);
+  color:whitesmoke;
+  height:100vh;
+  /*
+  background-image: url("./bg.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+}
+
+.otherLinks {
+  margin: 10px
+}
+
+.card-text {
+  color: blanchedalmond;
+  font-size: 12px
+}
+
+.projectLink {
+  text-decoration: none
 }

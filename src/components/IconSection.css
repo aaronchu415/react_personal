@@ -1,0 +1,64 @@
+.IconSection {
+  /* height:50vh; */
+  width:100%;
+  background-color:rgba(0, 0, 0, .3);
+
+}
+
+.iconBox {
+  height:20vh;
+}
+
+#GithubLogo {
+  background-image: url("/img/githubIcon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:50%;
+  width:50%;
+}
+
+#LinkedinLogo {
+  background-image: url("/img/linkedinIcon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:50%;
+  width:50%;
+}
+
+#LeetCodeLogo {
+  background-image: url("/img/LeetCode_logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:50%;
+  width:50%;
+}
+/* 
+.aboutMePicture {
+  height:50vh;
+  background-image: url("/img/headShot.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aboutMeDescription {
+  height:50vh;
+  background-image: url("/img/aboutMeDescription.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  position: relative
+}
+
+.opacity {
+  height:100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, .6)
+} */
