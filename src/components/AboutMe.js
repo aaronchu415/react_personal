@@ -9,7 +9,7 @@ class AboutMe extends Component {
         <div class="row justify-content-center align-items-center">
           <div class="aboutMePicture col-md">
           </div>
-          <div class="col-md d-flex justify-content-center align-items-center aboutMeDescription">
+          <div class="col-md d-flex pl-5 pr-5 justify-content-center align-items-center aboutMeDescription">
             <div class='opacity'></div>
             <div class="container">
               <div class="row">

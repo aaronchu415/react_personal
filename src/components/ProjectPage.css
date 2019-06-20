@@ -1,0 +1,21 @@
+.background {
+  background-color: black;
+  height: 100vh;
+
+  background-image: url("/img/sectionOneBg.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+.mt-10 {
+  margin-top: 10rem !important;
+}
+
+hr {
+  border-top: 5px solid white;
+  width: 100%;
+}

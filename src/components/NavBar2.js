@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import "./NavBar2.css"
 
@@ -35,16 +36,16 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Button className="nav-link" href="#">Home <span className="sr-only"></span></Button>
+              <Link to="/"><Button className="nav-link">Home <span className="sr-only"></span></Button></Link>
             </li>
             <li className="nav-item">
-              <Button className="nav-link" href="#about">About</Button>
+              <Link to="/#about"><Button className="nav-link">About</Button></Link>
             </li>
             <li className="nav-item">
-              <Button className="nav-link" href="#skills">Skills</Button>
+              <Link to="/#skills"><Button className="nav-link">Skills</Button></Link>
             </li>
             <li className="nav-item">
-              <Button className="nav-link" href="#projects">Projects</Button>
+              <Link to="/#projects"><Button className="nav-link">Projects</Button></Link>
             </li>
           </ul>
         </div>

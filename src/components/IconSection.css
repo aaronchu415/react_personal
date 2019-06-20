@@ -17,6 +17,10 @@
   width: 50%;
 }
 
+#GithubLogo:hover {
+  background-color: rgba(23, 71, 160, 0.25);
+}
+
 #LinkedinLogo {
   background-image: url("/img/linkedinIcon.svg");
   background-position: center;
@@ -24,6 +28,11 @@
   background-size: contain;
   height: 50%;
   width: 50%;
+  padding-top: 5px;
+}
+
+#LinkedinLogo:hover {
+  background-color: rgba(117, 22, 78, 0.25);
 }
 
 #LeetCodeLogo {
@@ -35,6 +44,10 @@
   width: 50%;
 }
 
+#LeetCodeLogo:hover {
+  background-color: rgba(192, 33, 192, 0.25);
+}
+
 #ResumeLogo {
   background-image: url("/img/resumeLogo.png");
   background-position: center;
@@ -42,6 +55,10 @@
   background-size: contain;
   height: 50%;
   width: 50%;
+}
+
+#ResumeLogo:hover {
+  background-color: rgba(15, 95, 46, 0.25);
 }
 /* 
 .aboutMePicture {
