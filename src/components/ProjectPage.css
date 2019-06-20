@@ -10,6 +10,8 @@
   position: relative;
 
   background-attachment: fixed;
+
+  overflow: scroll;
 }
 
 .transparent-bg-container {
@@ -19,14 +21,15 @@
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 100%;
+  overflow: scroll;
 }
 
 .mt-10 {
   margin-top: 10rem !important;
 }
 
-.mt-8 {
-  margin-top: 8rem !important;
+.mt-6 {
+  margin-top: 6rem !important;
 }
 
 .project-name {
@@ -48,4 +51,14 @@
 hr {
   border-top: 5px solid white;
   width: 100%;
+}
+
+.image-carousel-container {
+  width: 75%;
+}
+
+@media only screen and (max-width: 400px) {
+  .image-carousel-container {
+    width: 90%;
+  }
 }
