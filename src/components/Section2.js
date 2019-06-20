@@ -8,6 +8,7 @@ class SectionTwo extends Component {
     return (
       <div className='sectionTwo container-fluid'>
         <Portfolio></Portfolio>
+        {/* <IconSection></IconSection> */}
       </div>);
   }
 }
