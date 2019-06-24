@@ -11,17 +11,22 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 class ProjectPage extends Component {
   state = {}
   render() {
+
+    const PROJECT_ID = this.props.match.params.id;
+    console.log(this.props, PROJECT_ID)
+    const PROJECT = this.props.projects.filter(p => p.id === PROJECT_ID)[0]
+
     return (
       <div className="pt-2 background container-fluid">
         <div className='transparent-bg-container'>
-          <NavBar2></NavBar2>
-          <Fade in={true} timeout={{ enter: 100, exit: 100 }}>
+          <NavBar2 fixed={true}></NavBar2>
+          <Fade in={true} timeout={{ enter: 500, exit: 100 }}>
 
             <div class='mt-10 w-75 ml-auto mr-auto row'>
               <div class='col-12'>
-                <h1 class='project-name text-white'>Course Report</h1>
-                <h4 class='text-white'>React Native • Node/Express • Rails • Redis • PostgreSQL</h4>
-                <p class='mt-6 text-white'>Lorem ipsum dolor amet mumblecore hell of schlitz, street art cloud bread fanny pack fingerstache 3 wolf moon. Tote bag celiac polaroid, enamel pin irony af PBR&B heirloom. Whatever lumbersexual thundercats, craft beer small batch vape put a bird on it jianbing prism drinking vinegar air plant. Health goth fam chartreuse meggings actually selvage sartorial yr hot chicken fashion axe biodiesel cred +1. Stumptown tattooed forage copper mug, food truck fam pabst bitters wayfarers deep v chicharrones knausgaard pitchfork mixtape. Scenester keffiyeh put a bird on it raclette, knausgaard cray everyday carry tilde quinoa 3 wolf moon af meditation fanny pack. Hammock brunch raw denim tbh vegan, chicharrones scenester four dollar toast craft beer tousled quinoa gochujang small batch godard.</p>
+                <h1 class='project-name text-white'>{PROJECT.name}</h1>
+                <h4 class='text-white'>{PROJECT.header}</h4>
+                <p class='mt-6 text-white'>{PROJECT.description}</p>
               </div>
             </div>
           </Fade>
@@ -35,7 +40,8 @@ class ProjectPage extends Component {
                 <img width='100%' src="https://zdnet1.cbsistatic.com/hub/i/r/2019/04/17/1f68c3a6-495e-4325-bc16-cc531812f0ec/thumbnail/770x433/84ff4194826e8303efb771cd377a854f/chuwi-herobook-header.jpg"></img>
               </div> */}
               <div class='mt-4 col-12'>
-                <Carousel />
+                {/* <div class='mt-5 mb-5' style={{ position: 'relative', paddingBottom: 'calc(54.95% + 44px)' }}><iframe src='https://gfycat.com/ifr/BrokenWelldocumentedEel' frameborder='0' scrolling='no' width='100%' height='100%' style={{ position: 'absolute', top: 0, left: 0 }} allowfullscreen></iframe></div> */}
+                <Carousel project={PROJECT} />
               </div>
             </div>
           </Fade>

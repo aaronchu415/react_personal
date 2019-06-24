@@ -19,8 +19,8 @@ class AboutMe extends Component {
                 <div class="col-lg-9">
                   <p>Aaron started his career as an auditor and hedge fund accountant. After 5
                       years in the
-                      finance industry he left his career in accounting to pursue a career in technology. He is
-                      current a full-stack software developer residing in San Francisco Bay Area.
+                      finance industry, he pursued a career in technology. He is
+                      currently a full-stack software developer residing in San Francisco Bay Area.
                         </p>
                 </div>
               </div>

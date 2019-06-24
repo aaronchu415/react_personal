@@ -7,7 +7,7 @@ class SectionTwo extends Component {
   render() {
     return (
       <div className='sectionTwo container-fluid'>
-        <Portfolio></Portfolio>
+        <Portfolio projects={this.props.projects}></Portfolio>
         {/* <IconSection></IconSection> */}
       </div>);
   }
