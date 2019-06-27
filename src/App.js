@@ -81,7 +81,7 @@ class App extends Component {
         id: "453cf596-8742-45b4-bfaf-9ec025c9af2eee",
         name: "CrimeSpotter",
         header: "jQuery • Google Maps API",
-        description: `CrimeSpotter is a web application where users can search for areas of reported crime in any San Francisco neighborhood. 
+        description: `CrimeSpotter is a web application where users can search for reported crimes in any San Francisco neighborhood. 
         The application is built using jQuery, Bootstrap, and Google Maps API.
         The application allows users to query hundreds of thousands of reported crimes plotted on the Google Map interface, 
         with the information pulled straight from DataSF. Users can view this data in the form of a heat or cluster map. 
