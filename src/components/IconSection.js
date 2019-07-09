@@ -21,7 +21,7 @@ class IconSection extends Component {
             <h5 className='m-3 text-white'>Github</h5>
           </div>
           <div class="iconBox d-flex flex-column justify-content-center align-items-center col-md-3  col-5">
-            <Button href='https://leetcode.com/aaronchu415/' id='ResumeLogo'></Button>
+            <Button href='https://drive.google.com/file/d/1b5Q3eHWQhwHU5kdiEw1v1HY1WMRQHdYm/view' id='ResumeLogo'></Button>
             <h5 className='m-3 text-white'>Resume</h5>
           </div>
         </div>

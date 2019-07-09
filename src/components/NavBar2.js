@@ -58,9 +58,6 @@ export default class NavBar extends Component {
                 <Link to="/#about"><Button className={`nav-link ${linkColor}`}>About</Button></Link>
               </li>
               <li className="nav-item">
-                <Link to="/#skills"><Button className={`nav-link ${linkColor}`}>Skills</Button></Link>
-              </li>
-              <li className="nav-item">
                 <Link to="/#projects"><Button className={`nav-link ${linkColor}`}>Projects</Button></Link>
               </li>
             </ul>
